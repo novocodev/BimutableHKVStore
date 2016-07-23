@@ -15,7 +15,7 @@ A Key/Value store where the key is derived by using a hash function of the value
  
  # HashedValueStore
  
- A HashedValueStore can be used as a core component when developing highly distributed systems that have no central authority or coordination and where peers need to be able to independently validate data.
+ A HashedValueStore can be used as a core component when developing highly distributed systems that have no central authority or coordination and where peers need to be able to independently validate incoming data.
  
  This repo contains interface definitions for the HashedValueStore in the following languages.
  
