@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46B4686F1D47FA9300638A6F /* BimutableHKVStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 46B4686E1D47FA9300638A6F /* BimutableHKVStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46B468761D47FA9300638A6F /* BimutableHKVStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B4686B1D47FA9300638A6F /* BimutableHKVStore.framework */; };
+		46B4687B1D47FA9300638A6F /* BimutableHKVStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B4687A1D47FA9300638A6F /* BimutableHKVStoreTests.swift */; };
+		46B4688B1D47FBF700638A6F /* BimutableHKVStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B468891D47FBF700638A6F /* BimutableHKVStore.swift */; };
+		46B4688E1D47FE5600638A6F /* BrightFutures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B4688D1D47FE5600638A6F /* BrightFutures.framework */; };
+		46B468901D47FE5A00638A6F /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B4688F1D47FE5A00638A6F /* Result.framework */; };
+		46B468921D47FE6200638A6F /* SwiftBase58.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B468911D47FE6200638A6F /* SwiftBase58.framework */; };
+		46B468941D47FE6E00638A6F /* SwiftGMP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B468931D47FE6E00638A6F /* SwiftGMP.framework */; };
+		46B468961D47FE7200638A6F /* SwiftHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B468951D47FE7200638A6F /* SwiftHex.framework */; };
+		46B468981D47FE7700638A6F /* SwiftMultihash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46B468971D47FE7700638A6F /* SwiftMultihash.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46B468771D47FA9300638A6F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46B468621D47FA9300638A6F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46B4686A1D47FA9300638A6F;
+			remoteInfo = BimutableHKVStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46B4686B1D47FA9300638A6F /* BimutableHKVStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BimutableHKVStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B4686E1D47FA9300638A6F /* BimutableHKVStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BimutableHKVStore.h; sourceTree = "<group>"; };
+		46B468701D47FA9300638A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B468751D47FA9300638A6F /* BimutableHKVStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BimutableHKVStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46B4687A1D47FA9300638A6F /* BimutableHKVStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BimutableHKVStoreTests.swift; sourceTree = "<group>"; };
+		46B4687C1D47FA9300638A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B468851D47FB4800638A6F /* BrightFutures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightFutures.framework; path = Carthage/Build/Mac/BrightFutures.framework; sourceTree = "<group>"; };
+		46B468871D47FB4B00638A6F /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/Mac/Result.framework; sourceTree = "<group>"; };
+		46B468891D47FBF700638A6F /* BimutableHKVStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BimutableHKVStore.swift; sourceTree = "<group>"; };
+		46B4688D1D47FE5600638A6F /* BrightFutures.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BrightFutures.framework; path = Carthage/Build/iOS/BrightFutures.framework; sourceTree = "<group>"; };
+		46B4688F1D47FE5A00638A6F /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Result.framework; path = Carthage/Build/iOS/Result.framework; sourceTree = "<group>"; };
+		46B468911D47FE6200638A6F /* SwiftBase58.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftBase58.framework; path = Carthage/Build/iOS/SwiftBase58.framework; sourceTree = "<group>"; };
+		46B468931D47FE6E00638A6F /* SwiftGMP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftGMP.framework; path = Carthage/Build/iOS/SwiftGMP.framework; sourceTree = "<group>"; };
+		46B468951D47FE7200638A6F /* SwiftHex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftHex.framework; path = Carthage/Build/iOS/SwiftHex.framework; sourceTree = "<group>"; };
+		46B468971D47FE7700638A6F /* SwiftMultihash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftMultihash.framework; path = Carthage/Build/iOS/SwiftMultihash.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46B468671D47FA9300638A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B4688E1D47FE5600638A6F /* BrightFutures.framework in Frameworks */,
+				46B468901D47FE5A00638A6F /* Result.framework in Frameworks */,
+				46B468921D47FE6200638A6F /* SwiftBase58.framework in Frameworks */,
+				46B468941D47FE6E00638A6F /* SwiftGMP.framework in Frameworks */,
+				46B468961D47FE7200638A6F /* SwiftHex.framework in Frameworks */,
+				46B468981D47FE7700638A6F /* SwiftMultihash.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B468721D47FA9300638A6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B468761D47FA9300638A6F /* BimutableHKVStore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46B468611D47FA9300638A6F = {
+			isa = PBXGroup;
+			children = (
+				46B468971D47FE7700638A6F /* SwiftMultihash.framework */,
+				46B468951D47FE7200638A6F /* SwiftHex.framework */,
+				46B468931D47FE6E00638A6F /* SwiftGMP.framework */,
+				46B468911D47FE6200638A6F /* SwiftBase58.framework */,
+				46B4688F1D47FE5A00638A6F /* Result.framework */,
+				46B4688D1D47FE5600638A6F /* BrightFutures.framework */,
+				46B468871D47FB4B00638A6F /* Result.framework */,
+				46B468851D47FB4800638A6F /* BrightFutures.framework */,
+				46B4686D1D47FA9300638A6F /* BimutableHKVStore */,
+				46B468791D47FA9300638A6F /* BimutableHKVStoreTests */,
+				46B4686C1D47FA9300638A6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46B4686C1D47FA9300638A6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46B4686B1D47FA9300638A6F /* BimutableHKVStore.framework */,
+				46B468751D47FA9300638A6F /* BimutableHKVStoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46B4686D1D47FA9300638A6F /* BimutableHKVStore */ = {
+			isa = PBXGroup;
+			children = (
+				46B468891D47FBF700638A6F /* BimutableHKVStore.swift */,
+				46B4686E1D47FA9300638A6F /* BimutableHKVStore.h */,
+				46B468701D47FA9300638A6F /* Info.plist */,
+			);
+			path = BimutableHKVStore;
+			sourceTree = "<group>";
+		};
+		46B468791D47FA9300638A6F /* BimutableHKVStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				46B4687A1D47FA9300638A6F /* BimutableHKVStoreTests.swift */,
+				46B4687C1D47FA9300638A6F /* Info.plist */,
+			);
+			path = BimutableHKVStoreTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		46B468681D47FA9300638A6F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B4686F1D47FA9300638A6F /* BimutableHKVStore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		46B4686A1D47FA9300638A6F /* BimutableHKVStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46B4687F1D47FA9300638A6F /* Build configuration list for PBXNativeTarget "BimutableHKVStore" */;
+			buildPhases = (
+				46B468661D47FA9300638A6F /* Sources */,
+				46B468671D47FA9300638A6F /* Frameworks */,
+				46B468681D47FA9300638A6F /* Headers */,
+				46B468691D47FA9300638A6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BimutableHKVStore;
+			productName = BimutableHKVStore;
+			productReference = 46B4686B1D47FA9300638A6F /* BimutableHKVStore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		46B468741D47FA9300638A6F /* BimutableHKVStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46B468821D47FA9300638A6F /* Build configuration list for PBXNativeTarget "BimutableHKVStoreTests" */;
+			buildPhases = (
+				46B468711D47FA9300638A6F /* Sources */,
+				46B468721D47FA9300638A6F /* Frameworks */,
+				46B468731D47FA9300638A6F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46B468781D47FA9300638A6F /* PBXTargetDependency */,
+			);
+			name = BimutableHKVStoreTests;
+			productName = BimutableHKVStoreTests;
+			productReference = 46B468751D47FA9300638A6F /* BimutableHKVStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46B468621D47FA9300638A6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Novoĉo";
+				TargetAttributes = {
+					46B4686A1D47FA9300638A6F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					46B468741D47FA9300638A6F = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 46B468651D47FA9300638A6F /* Build configuration list for PBXProject "BimutableHKVStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 46B468611D47FA9300638A6F;
+			productRefGroup = 46B4686C1D47FA9300638A6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46B4686A1D47FA9300638A6F /* BimutableHKVStore */,
+				46B468741D47FA9300638A6F /* BimutableHKVStoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46B468691D47FA9300638A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B468731D47FA9300638A6F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46B468661D47FA9300638A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B4688B1D47FBF700638A6F /* BimutableHKVStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46B468711D47FA9300638A6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46B4687B1D47FA9300638A6F /* BimutableHKVStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46B468781D47FA9300638A6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46B4686A1D47FA9300638A6F /* BimutableHKVStore */;
+			targetProxy = 46B468771D47FA9300638A6F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46B4687D1D47FA9300638A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46B4687E1D47FA9300638A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		46B468801D47FA9300638A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = BimutableHKVStore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.vo.BimutableHKVStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46B468811D47FA9300638A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = BimutableHKVStore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.vo.BimutableHKVStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		46B468831D47FA9300638A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BimutableHKVStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.vo.BimutableHKVStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46B468841D47FA9300638A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BimutableHKVStoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.vo.BimutableHKVStoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46B468651D47FA9300638A6F /* Build configuration list for PBXProject "BimutableHKVStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B4687D1D47FA9300638A6F /* Debug */,
+				46B4687E1D47FA9300638A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46B4687F1D47FA9300638A6F /* Build configuration list for PBXNativeTarget "BimutableHKVStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B468801D47FA9300638A6F /* Debug */,
+				46B468811D47FA9300638A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46B468821D47FA9300638A6F /* Build configuration list for PBXNativeTarget "BimutableHKVStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B468831D47FA9300638A6F /* Debug */,
+				46B468841D47FA9300638A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46B468621D47FA9300638A6F /* Project object */;
+}
